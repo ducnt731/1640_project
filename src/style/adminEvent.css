@@ -1,0 +1,59 @@
+.event-manage{
+    grid-area: main;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.list-event{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-form{
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    h3{
+        text-align: center;
+    }
+}
+
+.eventM{
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+    .assignment{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        padding: 5px;
+    }
+    .deadline{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .button{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.grd-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    .react{
+        padding: 5px;
+    }
+    .reactEvent{
+        padding: 5px;
+    }
+}
